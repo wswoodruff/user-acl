@@ -9,7 +9,7 @@
   "author": "William Woodruff <williamswoodruff@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "hapi": "^16.1.0",
+    "hapi": "^17.0.0",
     "hapi-rbac": "^2.2.2",
     "haute-couture": "^1.4.0",
     "hoek": "^4.1.0",
