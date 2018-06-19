@@ -4,7 +4,9 @@
   "description": "Hooks up ACL for users with the hapi-rbac plugin",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "William Woodruff <williamswoodruff@gmail.com>",
   "license": "MIT",
@@ -13,6 +15,8 @@
     "hapi-rbac": "^2.2.2",
     "haute-couture": "^1.4.0",
     "hoek": "^4.1.0",
-    "joi": "^10.2.1"
-  }
+    "joi": "^10.2.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
