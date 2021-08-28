@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "hapi": "^16.1.0",
-    "hapi-rbac": "^2.2.2",
+    "hapi-rbac": "^3.0.0",
     "haute-couture": "^1.4.0",
     "hoek": "^4.1.0",
     "joi": "^10.2.1"
